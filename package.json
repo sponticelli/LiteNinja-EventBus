@@ -1,0 +1,23 @@
+{
+  "name": "com.liteninja.eventbus",
+  "version": "1.0.0",
+  "displayName": "LiteNinja EventBus",
+  "description": "A simple event bus for Unity3D",
+  "unity": "2019.1",
+  "documentationUrl": "https://github.com/sponticelli/LiteNinja-EventBus/blob/main/README.md",
+  "changelogUrl": "https://github.com/sponticelli/LiteNinja-EventBus/blob/main/CHANGELOG.md",
+  "licensesUrl": "https://github.com/sponticelli/LiteNinja-EventBus/blob/main/LICENSE",
+  "dependencies": {
+  },
+  "keywords": [
+    "event bus",
+    "events",
+    "decoupling",
+    "architecture",
+  ],
+  "author": {
+    "name": "Sandro Ponticelli",
+    "email": "sandro.ponticelli@gmail.com",
+    "url": "https://github.com/sponticelli"
+  }
+}
