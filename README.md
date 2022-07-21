@@ -2,35 +2,15 @@
 A Unity Event Bus for Unity.
 
 What is an Event Bus? An event bus is a way to communicate between components of a game.
+One of the issues I found by working with ScriptableObjects Events is that the number of events can easily explode.
+So I decided to create a way to group events together.
 
 ## Usage
+TBD
 
-### Events
+## Dependencies
 
-    public class MyEvent : IEvent
-    {
-        public int Value { get; set; }
-    }
+- [LiteNinja-Utils](https://github.com/sponticelli/LiteNinja-Utils)
+- [LiteNinja-SOEvents](https://github.com/sponticelli/LiteNinja-SOEvents)
 
-### Event Bus
-There are several ways to use LiteNinja-EventBus.
-
-#### Global Event Bus
-The global event bus is a static that can be accessed from anywhere in the game.
-    
-    GlobalEventBus.Subscribe<MyEvent>(OnMyEvent);
-    
-    GlobalEventBus.Publish(new MyEvent { Value = 1 });
-    
-
-#### Global Event Bus Generic
-
-#### Simple Event Bus
-
-#### ScriptableObject Event Bus
-
-## Publishers
-
-## Subscribers
-It is responsibility of the subscriber to unsubscribe to the event bus.
 

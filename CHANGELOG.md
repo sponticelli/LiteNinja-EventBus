@@ -5,6 +5,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+## [2.0.0] - 2022-07-21
+### Changed
+- Completely rewrote the event bus as a way to group events together.
+
+
+
 ## [1.0.0] - 2022-07-01
 ### Added
 - Added an interface for the event bus.
